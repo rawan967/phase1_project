@@ -1,0 +1,214 @@
+.highboard {
+  scroll-snap-type: x mandatory;
+   overflow-x: hidden;
+  height: 100vh;
+  text-align:center;
+  margin: 7% 11% 2% 11%;
+  border-radius: 50x; 
+}
+.highboard h1{
+    margin-bottom: 20px;
+    text-shadow: 
+    0 0 8px rgba(170,133,82,0.9),
+    0 0 20px rgba(255, 255, 255, 0.9);
+    color:#D1801E  ;
+    font-size: 5rem;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.slide {
+  margin-top: 2%;
+  margin-right: 5px;
+  height: 50vh;
+  background: #374F4E;
+  color:#cec9c9;
+  padding: 15px;
+  border-radius: 12px;
+  scroll-snap-align: center;
+  text-align: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+  min-width: 320px;
+  flex-shrink: 0;
+}
+.slide p{
+  color:#AA8552 ;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+}
+.track {
+  gap: 10px;
+  display: flex;
+  transition: transform 0.8s ease-in-out;
+  will-change: transform;
+}
+.slide img{
+  width: 280px;
+  height: 250px;
+}
+.slide:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+}
+
+.PR{
+  scroll-snap-type: x mandatory;
+   overflow-x: hidden;
+  height: 80vh;
+  text-align:center;
+  margin: 0 13.5%;
+  border-radius: 50x; 
+  border: #AA8552 5px 0 0 0 ;
+}
+.PR h1 , .graphic h1 , .tec h1 , .smm h1 {
+    margin-bottom: 20px;
+    text-shadow: 
+    0 0 8px rgba(170,133,82,0.9),
+    0 0 20px rgba(255, 255, 255, 0.9);
+    color:#D1801E ;
+    font-size: 4rem;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.vedio h1{
+    margin-bottom: 20px;
+    text-shadow: 
+    0 0 8px rgba(170,133,82,0.9),
+    0 0 20px rgba(255, 255, 255, 0.9);
+    color:#D1801E ;
+    font-size: 3.5rem;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tec ,.vedio ,.smm ,.graphic{
+   scroll-snap-type: x mandatory;
+   overflow-x: hidden;
+  height: 80vh;
+  text-align:center;
+  margin: 0 25%;
+  border-radius: 50x; 
+  border: #AA8552 5px 0 0 0 ;
+}
+.smm{
+  margin-bottom: -30%;
+}
+.PR, .tec, .vedio, .graphic, .smm {
+  border-top: 2px solid rgba(209,128,30,0.4);
+  padding-top: 40px;
+}
+
+@media(max-width: 600px) { 
+  .highboard {
+  scroll-snap-type: x mandatory;
+  overflow-x: hidden;
+  height: 100vh;
+  text-align:center;
+  margin: 25% 9% 0 9%;
+  border-radius: 50x; 
+}
+.highboard h1{
+    margin-bottom: 30px;
+    text-shadow: 
+    0 0 8px rgba(170,133,82,0.9),
+    0 0 20px rgba(255, 255, 255, 0.9);
+    color:#D1801E  ;
+    font-size: 3.5rem;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.highboard .slide {
+  margin-bottom: -100%;
+  margin-right: 5px;
+  height: 45vh;
+  background: #374F4E;
+  color:#cec9c9;
+  padding: 15px;
+  border-radius: 12px;
+  scroll-snap-align: center;
+  text-align: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+  min-width: 300px;
+  flex-shrink: 0;
+}
+.slide p{
+  color:#AA8552 ;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+}
+ .highboard .track {
+  gap: 10px;
+  display: flex;
+  transition: transform 0.8s ease-in-out;
+  will-change: transform;
+}.highboard .slide img{
+  width: 280px;
+  height: 250px;
+}
+.slide:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+}
+
+ .graphic .slide img , .tec .slide img , .vedio .slide img , .PR .slide img , .smm .slide img{
+  width: 380px;
+  height: 300px;
+}
+.PR h1 , .graphic h1 , .tec h1 , .smm h1 {
+    margin-bottom: 50px;
+    text-shadow: 
+    0 0 8px rgba(170,133,82,0.9),
+    0 0 20px rgba(255, 255, 255, 0.9);
+    color:#D1801E ;
+    font-size: 2.5rem;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.vedio h1{
+    margin-bottom: 20px;
+    text-shadow: 
+    0 0 8px rgba(170,133,82,0.9),
+    0 0 20px rgba(255, 255, 255, 0.9);
+    color:#D1801E ;
+    font-size: 2.5rem;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tec .slide , .vedio .slide, .graphic .slide , .PR .slide , .smm .slide{
+  background: #374F4E;
+  color:#cec9c9;
+  padding: 15px;
+  border-radius: 12px;
+  scroll-snap-align: center;
+  text-align: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  min-width: 300px;
+  height: 45vh;
+}
+.tec .track , .vedio .track , .graphic .track , .PR .track , .smm .track{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    transform: none !important;
+    transition: none !important;
+  
+}
+.tec,.vedio ,.smm ,.graphic, .PR{
+  height: 100%;
+  margin: 0 9%;
+  text-align:center;
+  border-top: 2px solid rgba(209,128,30,0.4);
+  padding-top: 50px;
+  margin-top: 100px;
+}
+.highboard{
+   margin-bottom: -55%;
+}
+.smm{
+  margin-bottom: -80%;
+}
+}
