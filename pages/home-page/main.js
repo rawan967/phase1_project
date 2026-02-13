@@ -39,3 +39,29 @@ window.addEventListener('DOMContentLoaded', () => {
 close_icon.addEventListener("click",()=>{
     menu.style.display = "none";
 });
+
+let facebook = document.getElementById("fb");
+let insegram = document.getElementById("insta-icon");
+let tiktok = document.getElementById("tiktok");
+let youtube = document.getElementById("youtube");
+let twitter = document.getElementById("twitter");
+
+facebook.addEventListener("click", ()=>{
+    window.open("https://www.facebook.com/180.Daraga");
+});
+
+insegram.addEventListener("click",()=>{
+    window.open("https://www.instagram.com/180daraga");
+});
+
+tiktok.addEventListener("click",()=>{
+   window.open("https://www.tiktok.com/@180daraga")
+});
+
+twitter.addEventListener("click",()=>{
+    window.open("https://x.com/180Daraga");
+})
+youtube.addEventListener("click",()=>{
+  window.open("https://www.youtube.com/channel/UCy2pNwCwdCDBa557YSYzLOA");
+});
+
