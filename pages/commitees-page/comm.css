@@ -1,0 +1,174 @@
+body{
+    display: flex;
+    background-color: white; 
+    flex-direction: column;  
+    
+}
+
+.back{
+    border: none;
+    border-radius: 4px;
+    background-color:#D1801E  ;
+    color:#374F4E;
+    height: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.back:hover{
+    background-color:#374F4E ;
+    color: #D1801E;
+    transition: 0.3s;
+}
+.Technical{
+    margin-top: 10%;
+    display: flex;
+    height: 600px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+}
+.Technical img{
+    height: 80%;
+}
+.Graphic{
+    display: flex;
+    height: 600px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.Graphic img{
+    height: 80%;
+}
+.SMM{
+      display: flex;
+    height: 600px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.SMM img{
+     height: 80%;
+    }
+    .PR{
+   display: flex;
+    height: 600px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    }
+    .PR img{
+     height: 80%;
+    }
+    .Video{
+   display: flex;
+    height: 600px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    }
+    .Video img{
+        height: 80%;
+    }
+    .contact-section {
+    background-color: #DACCC4;
+    padding: 30px 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    text-align: center;
+
+    margin-bottom: -35%;
+}
+
+.contact-section h2 {
+    color: #AA8552;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.social-icon.facebook {
+    background-color: #1877f2;
+    color: white;
+}
+
+.social-icon.facebook:hover {
+    background-color: #145dbf;
+    transform: scale(1.1);
+}
+
+.social-icon.whatsapp {
+    background-color: #25d366;
+    color: white;
+}
+
+.social-icon.whatsapp:hover {
+    background-color: #1da851;
+    transform: scale(1.1);
+}
+
+.social-icon.instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white;
+}
+
+.social-icon.instagram:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+@media (max-width:600px) {
+
+
+.Technical{
+    margin-top: 30%;
+    display: flex;
+    height: 600px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+}
+.Technical img, .Graphic img , .PR img , .Video img ,.SMM img{
+    height: 80%;
+    width: 100%;
+}
+    .contact-section {
+    background-color: #DACCC4;
+    padding: 30px 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    text-align: center;
+
+    margin-bottom: -100%;
+}
+    
+}

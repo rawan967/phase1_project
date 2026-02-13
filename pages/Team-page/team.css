@@ -52,7 +52,7 @@
   box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
 }
 
-.PR{
+.pr{
   scroll-snap-type: x mandatory;
    overflow-x: hidden;
   height: 80vh;
@@ -62,7 +62,7 @@
   border: #AA8552 5px 0 0 0 ;
 }
 
-.PR h1 , .graphic h1 , .tec h1 , .smm h1 {
+.pr h1 , .graphic h1 , .tec h1 , .smm h1 {
     margin-bottom: 20px;
     text-shadow: 
     0 0 8px rgba(170,133,82,0.9),
@@ -98,7 +98,7 @@ margin: 0 6%;
 .smm{
   margin-bottom: -30%;
 }
-.PR, .tec, .vedio, .graphic, .smm {
+.pr, .tec, .vedio, .graphic, .smm {
   border-top: 2px solid rgba(209,128,30,0.4);
   padding-top: 40px;
 }
@@ -157,11 +157,11 @@ margin: 0 6%;
   box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
 }
 
- .graphic .slide img , .tec .slide img , .vedio .slide img , .PR .slide img , .smm .slide img{
-  width: 380px;
+ .graphic .slide img , .tec .slide img , .vedio .slide img , .pr .slide img , .smm .slide img{
+  width: 300px;
   height: 300px;
 }
-.PR h1 , .graphic h1 , .tec h1 , .smm h1 {
+.pr h1 , .graphic h1 , .tec h1 , .smm h1 {
     margin-bottom: 50px;
     text-shadow: 
     0 0 8px rgba(170,133,82,0.9),
@@ -182,7 +182,7 @@ margin: 0 6%;
     text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.tec .slide , .vedio .slide, .graphic .slide , .PR .slide , .smm .slide{
+.tec .slide , .vedio .slide, .graphic .slide , .pr .slide , .smm .slide{
   background: #374F4E;
   color:#cec9c9;
   padding: 15px;
@@ -194,7 +194,7 @@ margin: 0 6%;
   min-width: 300px;
   height: 45vh;
 }
-.tec .track , .vedio .track , .graphic .track , .PR .track , .smm .track{
+.tec .track , .vedio .track , .graphic .track , .pr .track , .smm .track{
     display: grid;
     grid-template-columns: 1fr;
     gap: 15px;
@@ -202,7 +202,7 @@ margin: 0 6%;
     transition: none !important;
   
 }
-.tec,.vedio ,.smm ,.graphic, .PR{
+.tec,.vedio ,.smm ,.graphic, .pr{
   height: 100%;
   margin: 0 9%;
   text-align:center;
