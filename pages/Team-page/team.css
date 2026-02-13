@@ -61,6 +61,7 @@
   border-radius: 50x; 
   border: #AA8552 5px 0 0 0 ;
 }
+
 .PR h1 , .graphic h1 , .tec h1 , .smm h1 {
     margin-bottom: 20px;
     text-shadow: 
@@ -86,9 +87,13 @@
    overflow-x: hidden;
   height: 80vh;
   text-align:center;
-  margin: 0 25%;
+  margin: 0 23%;
   border-radius: 50x; 
   border: #AA8552 5px 0 0 0 ;
+}
+.tec .track,.vedio .track ,.smm .track,.graphic .track{
+margin: 0 6%;
+
 }
 .smm{
   margin-bottom: -30%;
