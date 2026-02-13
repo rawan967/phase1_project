@@ -17,7 +17,7 @@ link_pages.forEach(link_pages =>{
         let class_name = link_pages.className;
         let link = "";
         if(class_name === "home") link="../home-page/main.html";
-        else if(class_name === "events") link = "/pages/Events-page/events.html";
+        else if(class_name === "events") link = "../Events-page/events.html";
         else if(class_name === "team") link = "../Team-page/team.html";
         else if(class_name === "comm") link = "../commitees-page/comm.html";
     
